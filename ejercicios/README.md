@@ -14,6 +14,4 @@ vez que lo actualices,
 para poder incorporarlo aquí. Para evitar conflictos, es mejor que
 crees un directorio para tus ejercicios y, dentro de ese directorio,
 lo organices por temas. No hace falta que hagas un pull request para
-cada uno de los ejercicios, basta con que hagas uno por semana. 
-
-
+cada uno de los ejercicios, basta con que hagas uno por semana.

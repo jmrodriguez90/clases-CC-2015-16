@@ -1,0 +1,3 @@
+[submodule "ejercicios/germaaan/tema_01/calificaEmpresas"]
+	path = ejercicios/germaaan/tema_01/calificaEmpresas
+	url = git://github.com/germaaan/calificaEmpresas.git

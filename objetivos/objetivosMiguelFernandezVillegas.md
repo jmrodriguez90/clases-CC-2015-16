@@ -19,3 +19,12 @@ Lista de objetivos
 * [X] Manejar de forma básica la línea de órdenes de Linux.
 * [X] Aprender a instalar software libre en Linux.
 * [X] Entregar el fichero de objetivos y los primeros ejercicios usando GitHub.
+
+###Clase del 12 de octubre de 2015
+
+* [X] Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
+
+
+* [X] Entender las herramientas usadas en diferentes lenguajes de programación para desarrollo basado en test.
+  
+* [X] Darse de alta en los servicios usados en desarrollo basado en test.

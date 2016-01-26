@@ -15,8 +15,8 @@ Pero como siempre hay una solución que se extiende sobre el resto, en este caso
 
 Lo bueno de Nodeenv es que te permite integrarlo con virtualenv y python, de hecho, su instalación se realiza a través de python y sus herramientas de gestión de dependencias easy_install/pip.
 
-![NodeJSinstall](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1nodejs.png "Instalacion NodeJS")
-![Nodeenvinstall](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1nodenv.png)
+![NodeJSinstall](http://francisconavarro.nom.es/cloudcomputing/t1/1nodejs.png "Instalacion NodeJS")
+![Nodeenvinstall](http://francisconavarro.nom.es/cloudcomputing/t1/1nodenv.png)
 
 ###1.2 Python
 
@@ -25,10 +25,10 @@ Para instalar virtualenv se puede hacer desde los repositorios de la mayoría de
 En concreto para las últimas versiones de Fedora (>21)  
 
 sudo dnf install python-virtualenv (para la version 2.7)
-![PythonVirutalEnv](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1python27virtualenv.png)
+![PythonVirutalEnv](http://francisconavarro.nom.es/cloudcomputing/t1/1python27virtualenv.png)
 
 sudo dnf install python3-virtualenv (para la version 3)
-![Python3VirtualEnv](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1python3virtualenv.png)
+![Python3VirtualEnv](http://francisconavarro.nom.es/cloudcomputing/t1/1python3virtualenv.png)
 
 Por supuesto, al ser python la herramienta elegida se podría utilizar pip/easy install para tal fin.
 
@@ -43,16 +43,16 @@ Por lo tanto, basta con especificar el directorio donde queremos la instalación
 
 sudo nodeenv /var/lib/nodejs412
 
-![Nodjsv412](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1nodejs412.png)
+![Nodjsv412](http://francisconavarro.nom.es/cloudcomputing/t1/1nodejs412.png)
 
 ####2.1.2 Para la versión 0.12.7 (que es la minor mas actual)
 Para ello especificamos la versión con -n seguido del path donde queremos que se expanda. 
 
-![Nodejsv0127](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1nodejs0127.png)
+![Nodejsv0127](http://francisconavarro.nom.es/cloudcomputing/t1/1nodejs0127.png)
 
 ####2.1.3 Para la versión 0.11.16 (unstable)
 
-![Nodejsv01116](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/1nodejs01116.png)
+![Nodejsv01116](http://francisconavarro.nom.es/cloudcomputing/t1/1nodejs01116.png)
 
 
 ###2.2 Para python
@@ -62,9 +62,9 @@ Para ello especificamos la versión con -n seguido del path donde queremos que s
 Para python, como hemos dicho antes utilizamos la herramienta virtualenv. 
 Para ello hay que especificar que versión queremos utilizar. Podemos aprovechar la instalación de python en nuestra distribución con el parámetro -p. 
 
-Sudo -p /usr/bin/python27 /var/lib/envpython27
+Sudo virtualenv -p /usr/bin/python27 /var/lib/envpython27
 
-![Python27env](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/1envpython27.png)
+![Python27env](http://francisconavarro.nom.es/cloudcomputing/t1/1envpython27.png)
 
 ####2.2.2 Para python 3
 
@@ -72,4 +72,4 @@ La última versión de python 3 es la 3.4. Procedemos como antes.
 
 sudo virtualenv -p /usr/bin/python3.4 /var/lib/envpython34
 
-![Python34env](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/1envpython34.png)
+![Python34env](http://francisconavarro.nom.es/cloudcomputing/t1/1envpython34.png)

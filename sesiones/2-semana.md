@@ -1,4 +1,4 @@
-#Primera semana, 12 de octubre 2015
+#Segunda semana, 12 de octubre 2015
 
 Agradeceré que contestes la
 [encuesta inicial](https://docs.google.com/forms/d/1IxQv2LXWvmA3KbK8HgJAzWpNGvXkMitcf7eCIS5aXDI/viewform). Recordad
