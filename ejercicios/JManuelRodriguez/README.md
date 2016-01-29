@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-Espacio para ejercicios de la clase de Cloud omputing
-José Manuel Rodíguez
+Espacio para ejercicios de la clase de Cloud Computing
 =======
 José Manuel Rodríguez.
 Puesta en marcha de la carpeta para ejercicios.
