@@ -1,3 +1,6 @@
 [submodule "ejercicios/germaaan/tema_01/calificaEmpresas"]
 	path = ejercicios/germaaan/tema_01/calificaEmpresas
 	url = git://github.com/germaaan/calificaEmpresas.git
+[submodule "ejercicios/germaaan/tema_03/scripts/Gesco-DatabaseManagement-Docker"]
+	path = ejercicios/germaaan/tema_03/scripts/Gesco-DatabaseManagement-Docker
+	url = https://github.com/germaaan/Gesco-DatabaseManagement-Docker

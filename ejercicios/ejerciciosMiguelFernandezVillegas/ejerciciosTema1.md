@@ -36,7 +36,7 @@ Como usaré python creo el archivo requirement.txt, para observar cuales son las
 
 `pip freeze`
 
-a continuación creo el archivo [requirement.txt](https://github.com/miguelfervi/ProjectCC/blob/master/requeriment.txt) con el total de dependencias para este proyecto
+a continuación creo el archivo [requirement.txt](https://github.com/miguelfervi/ProjectCC/blob/master/requeriments.txt) con el total de dependencias para este proyecto
 
 ##Ejercicio 5
 ###Automatizar con grunt y docco (o algún otro sistema) la generación de documentación de la librería que se cree.Previamente, por supuesto, habrá que documentar tal librería.
@@ -48,9 +48,35 @@ Para instalarlo usaremos `sudo pip install pycco' y para ejecutar `pycco archivo
 Los documentos generados (html con sus respectivos css) los puedo ver en el directorio [docs](https://github.com/miguelfervi/ProjectCC/tree/master/docs)
 
 ##Ejercicio 6
-##Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga (vamos, lo que viene siendo TDD).
+###Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga (vamos, lo que viene siendo TDD).
 
 
 ![Test](https://gyazo.com/086d9d00a1636672d9a0c2d14b59eba7.png)
 
+##Ejercicio 8
+###En mi caso para Travis:
+###1- Darse de alta. Muchos están conectados con GitHub por lo que puedes usar directamente el usuario ahí. A través de un proceso de autorización, acceder al contenido e incluso informar del resultado de los tests.
 
+Para darse de alta en travis, simplemente lo enlazamos con nuestra cuenta de Github
+
+###2- Activar el repositorio en el que se vaya a aplicar la integración continua. Travis permite hacerlo directamente desde tu configuración; en otros se dan de alta desde la web de GitHub.
+
+Para activar el repositorio, debemos escoger entre nuestros distintos repositorios, elegir el que queremos realizar la integración continua y lo activamos
+###3- Crear un fichero de configuración para que se ejecute la integración y añadirlo al repositorio.
+He creado el archivo .travis.yml en este caso, para python, que contiene la siguiente informarción
+
+
+```
+language: python
+python:
+  - '2.6'
+  - '2.7'
+# command to install dependencies
+install: "pip install -r requirements.txt"
+# command to run tests
+script: npm install mocha --save-dev; npm install chai; npm install chai-fs;  npm test
+```
+
+En la siguiente imagen muestro que python, puede construir el proyecto que tengo en mi repositorio.
+![Badge](https://gyazo.com/cd0ac79c0b1a730eb8659d351288b653.png)
+Por último, para certificar a todos los usuarios de que lenguaje ha pasado por travis añado el badge correspondiente a mi parte de proyecto

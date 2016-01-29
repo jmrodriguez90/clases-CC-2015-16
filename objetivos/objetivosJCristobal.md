@@ -1,6 +1,6 @@
 Objetivos de José Cristóbal López Zafra
 
-# Objetivos de la clase de 5 de Octubre
+# Objetivos de la semana de 5 de Octubre
 
 * [X] Entender la metodología docente, de evaluación y de interacción de la asignatura. 
 
@@ -29,7 +29,7 @@ Objetivos adicionales
 * [X] Entregar el fichero de objetivos y los primeros ejercicios usando GitHub.
 
 
-# Objetivos de la clase de 14 de Octubre
+# Objetivos de la semana de 14 de Octubre
 
 * [X] Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
 
@@ -37,7 +37,7 @@ Objetivos adicionales
 * [X]  Darse de alta en los servicios usados en desarrollo basado en test.
 
 
-# Objetivos de la clase de 19 de Octubre
+# Objetivos de la semana de 19 de Octubre
 
 * [X]  Entender el concepto de desarrollo basado en pruebas.
 * [X]  Comprender la necesidad del mismo para un ciclo de desarrollo cuyo final es la nube.
@@ -56,7 +56,7 @@ Objetivos adicionales
         Aprender la utilidad de git status.
 
 
-# Objetivos de la clase de 26 de Octubre
+# Objetivos de la semana de 26 de Octubre
 
 
 * [X]  Entender la necesidad de un desarrollo basado en pruebas en un entorno de desarrollo tipo DevOps.
@@ -71,6 +71,48 @@ Objetivos adicionales
         Aprender el uso de .gitignore para que no aparezcan los ficheros que no deban en git status
             Aprender la utilidad de git status.
 
+
+# Objetivos de la semana de 2 de Noviembre
+
+* [X]  Entender el concepto de PaaS y su utilidad
+* [X]  Entender los mecanismos de despliegue de aplicaciones en un PaaS.
+* [X]  Examinar las diferencias entre las diferentes ofertas de PaaS.
+
+* [X]  Trabajar con los add-ons de los diferentes PaaS usados.
+* [x]  Usar GitHub de forma más avanzada, usando ramas de desarrollo, por ejemplo.
+
+
+# Objetivos de la semana de 9 de Noviembre
+
+* [x]  Entender el concepto de Base de datos como servicio
+* [X]  Estudiar los diferentes tipos de bases de datos existentes y cómo se pueden usar desde nuestras aplicaciones.
+* [x]  Examinar las diferencias entre las diferentes ofertas de DBaaS
+
+* [x]  Probar diferentes bases de datos NoSQL como Redis y ver la utilidad en una aplicación en la nube.
+* [x]  Entender las tags de Git y su uso para despliegues y lanzamientos.
+* [x]  Darse de alta en diferentes bases de datos en la nube que se puedan usar de forma experimental.
+
+
+# Objetivos de la semana de 16 de Noviembre
+
+* [X]  Entender el concepto de PaaS y su utilidad
+* [X]  Entender los mecanismos de despliegue de aplicaciones en un PaaS.
+* [X]  Examinar las diferencias entre las diferentes ofertas de PaaS.
+
+* [X]  Trabajar con los add-ons de los diferentes PaaS usados.
+* [X]  Comentar cuestiones relacionadas con la segunda práctica.
+* [x]  Ponerse al día de los ejercicios del segundo tema.
+
+
+# Objetivos de la semana de 23 de Noviembre
+
+* [x]  Entender la definición de la infraestructura virtual en PaaS.
+* [x]  Examinar los componentes que se pueden usar en una aplicación desplegada en un PaaS.
+
+* [x]  Alta en diferentes PaaS y examinar sus parecidos y diferencias.
+* [x]  Descargar los toolbelts de los diferentes PaaS y usarlos para despliegue automático.
+* [x]  Altas en otros servicios que se puedan integrar en un PaaS.
+* [x]  Experimentar con despliegues automáticos.
 
 
 
